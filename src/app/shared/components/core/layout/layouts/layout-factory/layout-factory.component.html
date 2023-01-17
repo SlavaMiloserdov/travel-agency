@@ -1,0 +1,4 @@
+<app-admin-layout *ngIf="isAdmin; else standard"></app-admin-layout>
+<ng-template #standard>
+  <app-layout></app-layout>
+</ng-template>
